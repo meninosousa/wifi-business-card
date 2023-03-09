@@ -12,7 +12,7 @@ This is quite common, I don’t have a data plan so, every time I want to show o
 
 The idea is to generate an ID card size document with the WiFi information in both text and on a QR Code (the WPS Pin can also be included).
 The ID-1 Card Format has the following dimentions (ISO/IEC 7810) [^ISO7810]:
-[^ISO7810]: https://www.iso.org/standard/70483.html
+
 
 | Dimentions (mm) | Dimentions (inch) |
 | --------------- | ----------------- |
@@ -20,7 +20,23 @@ The ID-1 Card Format has the following dimentions (ISO/IEC 7810) [^ISO7810]:
 
 This format size was chosen since it can be placed on those ID card holders and then glued on the router. Yes I know that my kids might play with it also, but I can either print a new one, or show a pdf version that I will keep on my phone.
 
+[^ISO7810]: https://www.iso.org/standard/70483.html
+
+### The QR Code
+
+There are a million websites where one can get a QR with the WiFi information. The problem of this, you have no idea how this information might be used. Moreover, I really like to try things by myself.
+This standard was invented by the ZXing Project [^ZXingProject] in june 2010 [^ZXingCommit]. It's actually pretty neat since it supports different configurations like WEP/WPA/no password, SSID/hidden SSID, TTLS/PWD, etc. Looking at the documentation [^ZXingDocumentation], the following parameters can be used:
+
+
+
+
+
+[^ZXingProject]: https://github.com/zxing
+[^ZXingCommit]: https://github.com/zxing/zxing/commit/58fefb095c9564dcbd0dbf4d2f1f90cffede10c8
+[^ZXingDocumentation]: https://github.com/zxing/zxing/wiki/Barcode-Contents#wi-fi-network-config-android-ios-11
+
 ### The Software
+
 
 Inkscape is the software to go. Free and open source, this design tool does everything I need, from text, to generate QR codes. Even better, we can script this in a way to autogenerate our ID card with all the informations. 
 
