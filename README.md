@@ -22,7 +22,7 @@ This format size was chosen since it can be placed on those ID card holders and 
 
 ### The Software
 
-Inkscape is the 
+Inkscape is the software to go. Free and open source, this design tool does everything I need, from text, to generate QR codes. Even better, we can script this in a way to autogenerate our ID card with all the informations. 
 
 
 
