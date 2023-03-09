@@ -1,5 +1,5 @@
-# The WiFi Business Card
-Welcome to my adventures in placing my WiFi info, on a business card.
+# The WiFi ID Card
+Welcome to my adventures in placing my WiFi info, on an ID card (ID-1 Format, 85.6 x 53.98 mm or 3.370 x 2.125 inches).
 
 ## Why the need for this project
 
@@ -7,5 +7,14 @@ Picture this: you invite some friends at your place, or family, and they get tir
 This is quite common, I don’t have a data plan so, every time I want to show or do something on the internet while away, this is the kind of thing that happens. But recently, I’ve noticed a QR Code icon on my phone and it lead me to wonder, how do this work, and, more important, how can I use it. There are alternatives, like WPS, but my kids are always touching that big button so I disabled that feature on the router.
 
 ## How it will be done
+### The Format
 
-The idea is to generate a business card size document with the WiFi information in both text and on a QR Code (the WPS Pin can also be included). The reason for this business card size
+The idea is to generate an ID card size document with the WiFi information in both text and on a QR Code (the WPS Pin can also be included).
+The ID-1 Card Format has the following dimentions:
+
+This format size was chosen since it can be placed on those ID card holders and then glued on the router. Yes I know that my kids might play with it also, but I can either print a new one, or show a pdf version that I will keep on my phone.
+
+
+
+
+
